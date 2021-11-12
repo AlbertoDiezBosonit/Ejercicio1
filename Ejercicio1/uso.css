@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-flow: column;
+}
+
+.fila1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: white;
+    justify-content: left;
+  
+}
+
+.fila1>*{
+    text-align: left;
+    background-color: red;
+    width: 8em;
+    padding-bottom: 3em;
+    margin: 0.5%;  
+}
+
+.fila2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: white;
+    justify-content: center;
+   
+  }
+
+.fila2>*{
+    text-align: left;
+    background-color: red;
+    width: 9%;
+    padding-bottom: 3%;
+    margin: 0.5%;  
+}
+
+.fila3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: white;
+    justify-content: left;
+}
+
+.fila3>*{
+    text-align: left;
+    background-color: blue;
+    width: 16%;
+    padding-bottom: 4%;
+    margin: 0.5%;  
+}
+
+.fila4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: white;
+    justify-content: left;
+  
+  }
+
+.segundosElementos{
+    text-align: left;
+    background-color: red;
+    width: 15em;
+    padding-bottom: 3em;
+    margin: 0.5%;  
+}
+
+.primerElemento{
+    text-align: center;
+    background-color: red;
+    width: 30%;
+    padding-bottom: 3em;
+    margin: 0.5%;  
+}
+
+.fila5{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: white;
+    justify-content: right;
+}
+
+.fila5>*{
+    text-align: left;
+    background-color: red;
+    width: 8em;
+    padding-bottom: 3em;
+    margin: 0.5%;  
+}
